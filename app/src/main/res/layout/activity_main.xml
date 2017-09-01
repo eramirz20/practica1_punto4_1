@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.esteban_ramirez_osorio.practica1_punto4_1.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/resistencia2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/franja_1"
+                android:textSize="10dp"
+                android:textColor="@color/black"/>
+            <Spinner
+                android:id="@+id/sColor1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Spinner>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/franja_2"
+                android:textSize="10dp"
+                android:textColor="@color/black"/>
+
+            <Spinner
+                android:id="@+id/sColor2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Spinner>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/franja_3"
+                android:textSize="10dp"
+                android:textColor="@color/black"/>
+
+            <Spinner
+                android:id="@+id/sColor3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Spinner>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+            <LinearLayout
+                android:layout_marginLeft="121sp"
+                android:layout_width="5sp"
+                android:layout_height="66sp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tRaya"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="7sp"
+                android:layout_width="5sp"
+                android:layout_height="66sp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tRaya2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="6sp"
+                android:layout_marginLeft="7sp"
+                android:layout_width="5sp"
+                android:layout_height="51sp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tRaya3"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Valor_resistencia"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/tValor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="4dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2">
+                <Button
+                    android:layout_margin="3sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/calcular"
+                    android:textSize="10sp"
+                    android:id="@+id/boton"/>
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

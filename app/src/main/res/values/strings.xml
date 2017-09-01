@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">practica1_punto4_1</string>
+    <string name="franja_1">franja 1</string>
+    <string name="Valor_resistencia">Valor resistencia</string>
+    <string name="calcular">calcular</string>
+    <string name="franja_2">franja 2</string>
+    <string name="franja_3">franja 3</string>
+    <string-array name="colors1">
+        <item>negro</item>
+        <item>cafe</item>
+        <item>rojo</item>
+        <item>naranja</item>
+        <item>amarillo</item>
+        <item>verde</item>
+        <item>azul</item>
+        <item>morado</item>
+        <item>gris</item>
+        <item>blanco</item>
+        </string-array>
+
+    <string-array name="colors2">
+        <item>negro</item>
+        <item>cafe</item>
+        <item>rojo</item>
+        <item>naranja</item>
+        <item>amarillo</item>
+        <item>verde</item>
+        <item>azul</item>
+        <item>morado</item>
+        <item>gris</item>
+        <item>blanco</item>
+    </string-array>
+
+    <string-array name="colors3">
+        <item>negro</item>
+        <item>cafe</item>
+        <item>rojo</item>
+        <item>naranja</item>
+        <item>amarillo</item>
+        <item>verde</item>
+        <item>azul</item>
+        <item>morado</item>
+        <item>gris</item>
+        <item>blanco</item>
+    </string-array>
+</resources>
